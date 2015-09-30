@@ -4,11 +4,11 @@ namespace matchmaker;
 
 function catches($value, $pattern)
 {
-    require_once('key_catcher.php');
+	require_once('key_catcher.php');
 
     if (is_array($pattern)) {
         if (!is_array($value) && !$value instanceof \Traversable) {
-            throw new \Exception( "validation error: value is non-array and non-transversable" );
+			return false;
         }
         $keyCatcher = key_catcher($pattern);
         foreach ($value as $key => $item) {
