@@ -1,9 +1,9 @@
 {
-    "name": "benchmark/matchmaker",
+    "name": "benchmarkeducation/matchmaker",
     "description": "Ultra-fresh PHP matching functions",
     "keywords": ["matchmaker", "matcher", "validation", "array", "json", "schema", "pattern"],
     "license": "MIT",
-    "homepage": "https://github.com/benchmark/matchmaker",
+    "homepage": "https://github.com/benchmarkeducation/matchmaker",
     "authors": [
         {
             "name": "Petr Trofimov",
