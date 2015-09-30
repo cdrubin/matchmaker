@@ -23,7 +23,7 @@
     "autoload": {
         "files": [
             "./src/catches.php",
-            "./src/matches.php",
+            "./src/matches.php"
         ]
     }
 }
