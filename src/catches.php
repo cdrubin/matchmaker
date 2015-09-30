@@ -12,9 +12,8 @@ function catches($value, $pattern)
         }
         $keyCatcher = key_catcher($pattern);
         foreach ($value as $key => $item) {
-            if (!$keyCatcher($key, $item)) throw new \Exception( "validation error: value '" . $item . "' is invalid for key '" . $key . "'" );
+			if (!$keyCatcher($key, $item)) throw new \Exception( "validation error: value '" . $item . "' is invalid for key '" . $key . "'" );
 			if ($keyCatcher($key)) throw new \Exception( "validation error: key '" . $key . "' not found in schema" );
-
         }
         if (!$keyCatcher()) return false;
     } elseif (!catcher($value, $pattern)) {
