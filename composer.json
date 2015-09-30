@@ -22,7 +22,8 @@
     },
     "autoload": {
         "files": [
-            "./src/catches.php"
+            "./src/catches.php",
+            "./src/matches.php",
         ]
     }
 }
