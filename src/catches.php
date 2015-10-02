@@ -21,4 +21,5 @@ function catches($value, $pattern, $context ='') {
     }
 
     return true;
+
 }
