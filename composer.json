@@ -1,9 +1,9 @@
 {
-    "name": "benchmarkeducation/matchmaker",
+    "name": "cdrubin/matchmaker",
     "description": "Ultra-fresh PHP matching functions",
     "keywords": ["matchmaker", "matcher", "validation", "array", "json", "schema", "pattern"],
     "license": "MIT",
-    "homepage": "https://github.com/benchmarkeducation/matchmaker",
+    "homepage": "https://github.com/cdrubin/matchmaker",
     "authors": [
         {
             "name": "Petr Trofimov",
@@ -12,7 +12,11 @@
         {
             "name": "Daniel Rubin",
             "email": "cdrubin@benchmarkeducation.com"
-        }        
+        },
+        {
+            "name": "Daniel Rubin",
+            "email": "daniel@rubin.za.net"
+        }
     ],
     "require": {
         "php": ">=5.4"
