@@ -1,3 +1,12 @@
+```
+NOTE!
+
+I've found enough issues in this library to not use it. 
+It remains here for historical purposes but I
+would not recommend anyone expect it to work reliably as-is.
+```
+
+
 matchmaker
 ==========
 
